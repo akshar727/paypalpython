@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling","requests"]
+build-backend = "hatchling.build"
+
+[project]
+name = "paypalpython"
+version = "0.0.1"
+authors = [
+  { name="Akshar Desai"},
+]
+description = "A small non-official paypal package that helps making paypal's rest sdk easier"
+requires-python = ">=3.8"
+readme="README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/akshar727/paypalpython"
+"Bug Tracker" = "https://github.com/akshar727/paypalpython/issues"
