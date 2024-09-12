@@ -29,8 +29,8 @@ invoice = paypalpython.Invoice({
         "invoicer": {
             "business_name":"Nitrostorm Games",
             "name": {
-            "given_name": "Atharv",
-            "surname": "Konkala"
+            "given_name": "Billy",
+            "surname": "Jones"
             },
             "address": {
             "address_line_1": "1035 University Avenue",
@@ -51,7 +51,7 @@ invoice = paypalpython.Invoice({
                 "given_name": "Akshar",
                 "surname": "Desai"
                 },
-                "email_address": "denniscool1@gmail.com",
+                "email_address": "name123@gmail.com",
                 "additional_info_value": "add-info"
             },
             }
